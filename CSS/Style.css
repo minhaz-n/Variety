@@ -5,6 +5,18 @@
     font-weight: normal;
     src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
 }
+/* -------common css start-------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Rokkitt", system-ui;
+}
+/* -------common css ends-------- */
 .navbar-toggler{
     outline: none;
     border: none;
