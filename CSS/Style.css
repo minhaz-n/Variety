@@ -5,3 +5,11 @@
     font-weight: normal;
     src: local('Myriad Pro Regular'), url('MYRIADPRO-REGULAR.woff') format('woff');
 }
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
