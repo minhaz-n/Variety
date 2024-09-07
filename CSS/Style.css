@@ -248,4 +248,92 @@ h1{
     left: -5px;
     z-index: -1;
 }
+.btn-2{
+    background-color: #1abc9c;
+    text-decoration: none;
+    font-size: 21px;
+    color: #ffffff;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 75px;
+}
 /* -----portfolio css ends----- */
+/* -----get in touch----- */
+#get-in-touch{
+    width: 100%;
+    padding: 75px 0;
+    font-family: "Rokkitt", system-ui;
+}
+.input-box{
+    width: 460px;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color:#e4e8e8 ;
+}
+
+.big-msg{
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #e4e8e8;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    resize: none;
+    color: #7f8383;
+    margin-bottom: 75px;
+}
+.get-in-touch-titel h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #1abc9c;
+    padding-bottom: 76px;
+}
+/* -----get in touch----- */
+/* ------footer css------ */
+#footer{
+    width: 100%;
+    padding-top: 75px ;
+    background-color: #1abc9c;
+}
+#footer .social-icon i{
+    width: 105px;
+    height: 105px;
+   border: 4px solid #444b49;
+   background-color: #ffffff;
+   color: #1abc9c;
+   font-size: 65px;
+   line-height: 105px;
+   bottom: 0%;
+   display: inline-block;
+   position: absolute;
+   margin-top: 10px;
+
+}
+#footer .social-icon{
+    position: relative;
+}
+#footer .social-icon .spotify{
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer .social-icon .twiter{
+    left: 100%;
+    transform: translateX(-100%);
+}
+#footer p{
+    font-size: 23px;
+    color: #ffffff;
+    margin-top: 75px;
+
+}
+/* ------footer css------ */
+
