@@ -161,3 +161,91 @@ h1{
     padding: 25px;
 }
 /* -----service css end----- */
+/* -----portfolio css start -----*/
+#portfolio{
+    width: 100%;
+    padding: 75px 0;
+    font-family: 'Myriad Pro Regular';
+}
+.portfolio-img img{
+    width: 100%;
+    /* position: relative; */
+}
+.portfolio-img:hover .portfolio-img-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio-img{
+    position: relative;
+}
+.portfolio-img::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:#e296916c ;
+    transition: 0.3s all linear;
+    top: 0;
+    left: 0;
+}
+.portfolio-img:hover::before{
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio-img-overlay{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s all linear;
+}
+.overly-text{
+    background-color: #1abc9c;
+    padding-left: 20px;
+    position: relative;
+    z-index: 1;
+}
+.overly-text::after{
+    content: "";
+    width: 100%;
+    height: 130%;
+    background-color:#1abc9caf ;
+    position: absolute;
+    top: -15%;
+    left: 0%;
+    z-index: -1;
+}
+.overly-text h2{
+    margin-top: 133px;
+    font-size: 42px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 10px;
+}
+.overly-text p{
+    font-size: 21px;
+    color: #ffffff;
+    
+}
+.portfolio-img-overlay i {
+    font-size: 35px;
+    background-color: #1abc9c;
+    padding: 11px;
+    position: relative;
+    z-index: 1;
+    top: 3%;
+    right: -40%;
+}
+.portfolio-img-overlay i::after{
+    content: "";
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    background-color: #1abc9caf;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+}
+/* -----portfolio css ends----- */
